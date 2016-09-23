@@ -1,0 +1,150 @@
+.titleBlock {
+text-align: center;
+}
+
+.userName {
+  color: #C46538;
+  font-size: 4em;
+}
+
+.userTitle {
+  color: lightgrey;
+}
+
+.profilePic {
+  width: 15vw;
+  height: 15vw;
+  margin: 15vh auto;
+  border-radius: 100vw;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.profilePic img {
+  width: 15vw;
+  height: 15vw;
+  background-color: grey;
+  border-radius: 100vw;
+  object-fit: cover;
+  /*border: 1px dotted #e8e8e8;*/
+}
+
+.splashPic {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.splashPic img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+  background-color: #C46538;
+  object-position: center center;
+}
+
+.imgBtn {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 15vw;
+  height: 60px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 1em;
+}
+
+.imgBtn:hover,
+.imgBtn:focus {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.myModal {
+  /*display: none;*/
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #C46538;
+}
+
+.modalContent {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 5vh 5vw;
+}
+
+.close {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: inherit;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.close:hover,
+.close:focus {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: text-shadow 0.1s, color 0.1s;
+  opacity: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+label {
+  margin-right: 20px;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255, 255, 255, 0.5);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255, 255, 255, 0.5);
+}
+
+:-ms-input-placeholder {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.btnModal {
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: #C46538;
+  position: absolute;
+  padding: 10px 40px;
+  bottom: 5vh;
+  left: 5vw;
+}
+
+.btnModal:hover,
+.btnModal:focus {
+  color: #C46538;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.1s;
+}
+
+.splashPic {
+}

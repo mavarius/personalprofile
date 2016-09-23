@@ -1,5 +1,6 @@
 .titleBlock {
 text-align: center;
+margin: 0 auto;
 }
 
 .userName {
@@ -14,7 +15,7 @@ text-align: center;
 .profilePic {
   width: 15vw;
   height: 15vw;
-  margin: 15vh auto;
+  margin: 15vh auto 0 auto;;
   border-radius: 100vw;
   overflow: hidden;
   position: relative;
@@ -78,7 +79,7 @@ text-align: center;
 
 .modalContent {
   color: white;
-  font-size: 3em;
+  font-size: 5vmin;;
   font-weight: bold;
   padding: 5vh 5vw;
 }
@@ -100,16 +101,23 @@ text-align: center;
   cursor: pointer;
 }
 
-input {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: none;
-  color: white;
-  border-bottom: 2px solid white;
+form {
+  width: 60vw;
 }
 
 label {
   margin-right: 20px;
 }
+
+input {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  width: 30vw;
+}
+
+
 
 ::-webkit-input-placeholder {
    color: rgba(255, 255, 255, 0.5);

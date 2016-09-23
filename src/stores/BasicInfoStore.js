@@ -4,8 +4,8 @@ import { EventEmitter } from 'events';
 http://digital-fury.com/Learning/CodingHouse/profilePic.jpg
 
 let _basicInfo = {
-  name: 'Enter Name',
-  title: 'Enter Title',
+  name: 'click to enter name',
+  title: 'click to enter title',
   profilePic: `https://api.adorable.io/avatars/285/${Math.floor(Math.random()*100)}.png`,
   splashPic: ''
 };

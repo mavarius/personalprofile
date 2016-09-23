@@ -48,7 +48,8 @@ const App = React.createClass({
   },
 
   render() {
-    const { name, title, profilePic, splashPic } = this.state.basicInfo
+    const { name, title, profilePic, splashPic } = this.state.basicInfo;
+    
     return (
       <div className='container'>
         <div className='row'>
